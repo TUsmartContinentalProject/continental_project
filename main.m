@@ -2,10 +2,12 @@ clear,clc;
 run('global_data.m');
 run('head.m');
 real_time=0;
-while real_time<end_time       %´óÑ­»·
-    Drive_statue();  %ÅÐ¶Ï¸÷³µ¼ÓËÙ¶È
+while real_time<end_time       %å¤§å¾ªçŽ¯
+    Drive_statue();  %åˆ¤æ–­å„è½¦åŠ é€Ÿåº¦
     Driving();
     real_time=real_time+delta_time;
 end
 
-%ÍõÐÂÓî 21:32
+%çŽ‹æ–°å®‡ 21:32
+
+%çŽ‹æ–°å®‡ 21:40
